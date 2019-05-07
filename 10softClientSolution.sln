@@ -1,0 +1,195 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{75FC150C-B291-4C74-A1BC-AE6EE2813A3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F4718D2B-986C-4663-BCB3-E44D63B17848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{D1E32605-282C-433C-A259-6AE4C32C3830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10softDAL", "10softDAL\10softDAL.csproj", "{921CE8ED-4057-4058-8EE7-F4D2F6377215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10softEAL", "10softEAL\10softEAL.csproj", "{277DC8D1-97A4-4F4D-92C0-452959C0241C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10softCommon", "10softCommon\10softCommon.csproj", "{F0DEAB87-642C-486E-A758-D40E6826D7C1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10softReferences", "10softReferences\", "{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/10softReferences"
+		Debug.AspNetCompiler.PhysicalPath = "10softReferences\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\10softReferences\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/10softReferences"
+		Release.AspNetCompiler.PhysicalPath = "10softReferences\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\10softReferences\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50652"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(SvnOrigin) = preProject
+		@Keys = Enlist,Svn.Uri
+		Enlist = Required
+		Svn.Uri = 10softReferences/
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResxEditor", "ResxEditor\ResxEditor.csproj", "{F745D7AE-C87B-4991-951E-A3B80FBA2362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10softDatePicker", "10softDatePicker\10softDatePicker.csproj", "{9901C221-642D-4609-BF69-7610FC151845}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HelpDocuments", "HelpDocuments\", "{79557E5C-55D2-4221-BEC9-5204F779125B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/HelpDocuments"
+		Debug.AspNetCompiler.PhysicalPath = "HelpDocuments\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HelpDocuments\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HelpDocuments"
+		Release.AspNetCompiler.PhysicalPath = "HelpDocuments\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HelpDocuments\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50657"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "10softweb_deploy", "10softweb_deploy\10softweb_deploy.wdproj", "{B57E57E1-266E-4CBB-A018-C0657C6A9C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10SoftMSMQ", "10SoftMSMQ\10SoftMSMQ.csproj", "{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10SoftMSMQLibrary", "10SoftMSMQLibrary\10SoftMSMQLibrary.csproj", "{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{5AC4A483-4A08-43A4-A251-2BFD1BD1CD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10soft_CustomAction", "10soft_CustomAction\10soft_CustomAction.csproj", "{483A5B73-D8E5-46E7-963C-958A41B667E5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "10SoftSetup", "10SoftSetup\10SoftSetup.vdproj", "{6C0C43CA-766F-424D-8322-21F4817C9A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingHandler", "CachingHandler\CachingHandler.csproj", "{F449E5A1-AB48-479B-917D-CE39C63B6FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MbCompression", "MBCompression\MbCompression.csproj", "{0B08C0A4-BE53-4C59-9857-1C49777FA304}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "10softweb", "10softweb\", "{8410AE83-C3C2-4803-A9D5-101C2B52FECD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{921CE8ED-4057-4058-8EE7-F4D2F6377215}|10softDAL.dll;{F0DEAB87-642C-486E-A758-D40E6826D7C1}|10softCommon.dll;{277DC8D1-97A4-4F4D-92C0-452959C0241C}|10softEAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/10softweb"
+		Debug.AspNetCompiler.PhysicalPath = "10softweb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\10softweb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/10softweb"
+		Release.AspNetCompiler.PhysicalPath = "10softweb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\10softweb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5857"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{921CE8ED-4057-4058-8EE7-F4D2F6377215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921CE8ED-4057-4058-8EE7-F4D2F6377215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921CE8ED-4057-4058-8EE7-F4D2F6377215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921CE8ED-4057-4058-8EE7-F4D2F6377215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277DC8D1-97A4-4F4D-92C0-452959C0241C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277DC8D1-97A4-4F4D-92C0-452959C0241C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277DC8D1-97A4-4F4D-92C0-452959C0241C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277DC8D1-97A4-4F4D-92C0-452959C0241C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DEAB87-642C-486E-A758-D40E6826D7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DEAB87-642C-486E-A758-D40E6826D7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DEAB87-642C-486E-A758-D40E6826D7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DEAB87-642C-486E-A758-D40E6826D7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F745D7AE-C87B-4991-951E-A3B80FBA2362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F745D7AE-C87B-4991-951E-A3B80FBA2362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F745D7AE-C87B-4991-951E-A3B80FBA2362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F745D7AE-C87B-4991-951E-A3B80FBA2362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9901C221-642D-4609-BF69-7610FC151845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9901C221-642D-4609-BF69-7610FC151845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9901C221-642D-4609-BF69-7610FC151845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9901C221-642D-4609-BF69-7610FC151845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79557E5C-55D2-4221-BEC9-5204F779125B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79557E5C-55D2-4221-BEC9-5204F779125B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79557E5C-55D2-4221-BEC9-5204F779125B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{79557E5C-55D2-4221-BEC9-5204F779125B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B57E57E1-266E-4CBB-A018-C0657C6A9C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57E57E1-266E-4CBB-A018-C0657C6A9C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57E57E1-266E-4CBB-A018-C0657C6A9C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483A5B73-D8E5-46E7-963C-958A41B667E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483A5B73-D8E5-46E7-963C-958A41B667E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483A5B73-D8E5-46E7-963C-958A41B667E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483A5B73-D8E5-46E7-963C-958A41B667E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0C43CA-766F-424D-8322-21F4817C9A50}.Debug|Any CPU.ActiveCfg = Debug
+		{6C0C43CA-766F-424D-8322-21F4817C9A50}.Release|Any CPU.ActiveCfg = Release
+		{F449E5A1-AB48-479B-917D-CE39C63B6FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F449E5A1-AB48-479B-917D-CE39C63B6FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F449E5A1-AB48-479B-917D-CE39C63B6FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F449E5A1-AB48-479B-917D-CE39C63B6FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B08C0A4-BE53-4C59-9857-1C49777FA304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B08C0A4-BE53-4C59-9857-1C49777FA304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B08C0A4-BE53-4C59-9857-1C49777FA304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B08C0A4-BE53-4C59-9857-1C49777FA304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8410AE83-C3C2-4803-A9D5-101C2B52FECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8410AE83-C3C2-4803-A9D5-101C2B52FECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8410AE83-C3C2-4803-A9D5-101C2B52FECD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8410AE83-C3C2-4803-A9D5-101C2B52FECD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{921CE8ED-4057-4058-8EE7-F4D2F6377215} = {75FC150C-B291-4C74-A1BC-AE6EE2813A3E}
+		{277DC8D1-97A4-4F4D-92C0-452959C0241C} = {75FC150C-B291-4C74-A1BC-AE6EE2813A3E}
+		{8410AE83-C3C2-4803-A9D5-101C2B52FECD} = {F4718D2B-986C-4663-BCB3-E44D63B17848}
+		{F0DEAB87-642C-486E-A758-D40E6826D7C1} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{0E18A51E-4501-4E0A-ACE3-789BBAFDF7C8} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{F745D7AE-C87B-4991-951E-A3B80FBA2362} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{9901C221-642D-4609-BF69-7610FC151845} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{79557E5C-55D2-4221-BEC9-5204F779125B} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{DA88F97D-0DCA-4018-AC9F-C8A3F94D6984} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{51C1EAA0-CC46-4AAD-8514-A4EF8CD21D69} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{F449E5A1-AB48-479B-917D-CE39C63B6FE2} = {D1E32605-282C-433C-A259-6AE4C32C3830}
+		{B57E57E1-266E-4CBB-A018-C0657C6A9C82} = {5AC4A483-4A08-43A4-A251-2BFD1BD1CD69}
+		{483A5B73-D8E5-46E7-963C-958A41B667E5} = {5AC4A483-4A08-43A4-A251-2BFD1BD1CD69}
+		{6C0C43CA-766F-424D-8322-21F4817C9A50} = {5AC4A483-4A08-43A4-A251-2BFD1BD1CD69}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
